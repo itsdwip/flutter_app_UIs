@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:login_signup_page/components/boxStyleimg.dart';
 import 'package:login_signup_page/components/long_elevatedbutton_style.dart';
 import 'package:login_signup_page/components/textfield_blueprint.dart';
+import 'package:login_signup_page/singup_page.dart';
 
 class LoginPage extends StatelessWidget {
   const LoginPage({super.key});
@@ -130,10 +131,19 @@ class LoginPage extends StatelessWidget {
                     const SizedBox(
                       width: 10,
                     ),
-                    Text(
-                      'join now',
-                      style: TextStyle(
-                        color: Colors.blue[700],
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.of(context).push(
+                          MaterialPageRoute(
+                            builder: (context) => const SingUpPage(),
+                          ),
+                        );
+                      },
+                      child: Text(
+                        'join now',
+                        style: TextStyle(
+                          color: Colors.blue[700],
+                        ),
                       ),
                     ),
                   ],
