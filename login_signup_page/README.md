@@ -1,16 +1,11 @@
-# login_signup_page
+# Login and Signup Page UI
 
-A new Flutter project.
+## Overview
 
-## Getting Started
+This project contains the user interface (UI) for a login and signup page, designed to provide a seamless and visually appealing experience for users.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots
+<img src="https://github.com/itsdwip/flutter_app_UIs/assets/134270020/dcb9fb0a-0127-4012-8440-bc6a303e4b58 "  height=500>
+<img src="https://github.com/itsdwip/flutter_app_UIs/assets/134270020/90f6b964-4f1f-447f-9430-39bdb3a19811"  height=500>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
